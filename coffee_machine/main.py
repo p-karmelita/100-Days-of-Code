@@ -13,7 +13,7 @@ while is_on:
     choice = input(f'What would you like? ({options}): ')
     if choice == 'off':
         is_on = False
-    elif choice == 'report'
+    elif choice == 'report':
         coffee_maker.report()
         money_machine.report()
     else:
